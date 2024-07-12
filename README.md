@@ -2,7 +2,7 @@
 
 Articolo originariamente scritto da Philip Heltweg: [How to Make Sure No One Cares About Your Open Data](https://www.heltweg.org/posts/how-to-make-sure-no-one-cares-about-your-open-data/)
 
-La traduzione italiana è a cura di [Antonio Vivace](https://github.com/avivace) e [Marco]() per [onData](https://www.ondata.it/).
+La traduzione italiana è a cura di [Antonio Vivace](https://github.com/avivace) e [Marco](https://github.com/mcortella) per [onData](https://www.ondata.it/). Puoi contribuire a migliorarla [qui](https://github.com/ondata/dati_aperti_senza_interesse).
 
 ---
 
@@ -20,6 +20,8 @@ Punti bonus se pubblichi su Kaggle con la licenza "Altro (specificato nella desc
 
 Guarda questa mappa interattiva realizzata dall'agenzia nazionale francese per i dati sui trasporti: [https://transport.data.gouv.fr/?locale=en](https://transport.data.gouv.fr/?locale=en).
 
+![Explore page of the French national access point to transport data](https://www.heltweg.org/posts/how-to-make-sure-no-one-cares-about-your-open-data/explore-map.png#center)
+
 Oppure il progetto [Datenwaben](https://datenwaben.de/?city=vienna&page=cards) di [Thomas Tursics](https://toot.berlin/@tursics@toot.berlin).
 Doesn’t that give you ideas for projects using the underlying data and make it sound interesting?
 
@@ -29,6 +31,8 @@ Terribile. Cerca di pubblicare solo i metadati minimi richiesti e scrivi descriz
 **2.5 Meno informazioni, meglio è**
 
 Piattaforme come Kaggle mostrano automaticamente agli utenti un'anteprima dei dati. Vedi questo set di dati sull'individuazione delle frodi con carte di credito (con utili visualizzazioni): [https://www.kaggle.com/datasets/kartik2112/fraud-detection](https://www.kaggle.com/datasets/kartik2112/fraud-detection). 
+
+![Useful visualization of data on Kaggle. This is the enemy.](https://www.heltweg.org/posts/how-to-make-sure-no-one-cares-about-your-open-data/data-visualisation.png#center)
 
 Con anteprime dei dati e riassunti delle distribuzioni dei valori in ciascuna colonna, è davvero facile giudicare se i dati sono appropriati da utilizzare. 
 
@@ -48,26 +52,31 @@ Se pubblichi i tuoi dati in formati facilmente utilizzabili come CSV o JSON, dev
 
 I PDF sono una scelta popolare, specialmente se includi del testo di riempimento come intestazioni o piè di pagina oltre ai dati stessi.
 
+![The Federal Statistical Office of Germany foolishly offering a choice of common data formats to download](https://www.heltweg.org/posts/how-to-make-sure-no-one-cares-about-your-open-data/multiple-file-formats.png#center)
+
 **4.5 Esportazione "human-friendly"**
 
-Quando esporti dati tabulari, considera di mantenere la struttura in un modo progettato originariamente per i lettori umani. Includi celle unite, intestazioni elaborate e note a piè di pagina. Se esporti in CSV, aggiungi alcuni metadati in puro testo, come le clausole di copyright, per rendere le importazioni automatiche più ostiche. Se i tuoi utenti devono affrontare un'ampia pulizia e un lavoro manuale prima di poter utilizzare i tuoi dati, potrebbero rinunciare.
+Quando esporti dati tabulari, cerca di mantenere una struttura per i lettori umani. Includi celle unite, intestazioni elaborate e note a piè di pagina. Se esporti in CSV, aggiungi alcuni metadati in puro testo, come le clausole di copyright, per rendere le importazioni automatiche più ostiche. Se i tuoi utenti devono fare un'ampia pulizia e un lavoro manuale prima di poter utilizzare i tuoi dati, potrebbero rinunciare.
 
 **5. Errori 404**
 
-Se devi condividere i set di dati su portali open data, sfrutta il fatto che spesso contengono solo metadati e un collegamento alla tua fonte originale. Riorganizza frequentemente il tuo portale senza reindirizzamenti e mostra agli utenti entusiasti una pagina di errore 404 (o meglio, una pagina che spiega la nuova struttura e che i dati sono altrove). Niente scoraggia più di un interesse iniziale infranto.
+Se devi proprio condividere i tuoi dati su portali open data, sfrutta il fatto che spesso contengono solo metadati e un collegamento alla tua fonte originale. Riorganizza frequentemente il tuo portale senza reindirizzamenti appropriati e mostra agli utenti entusiasti una pagina di errore 404 (o meglio ancora, una pagina che spiega la nuova struttura e che i dati sono altrove).
+
+Non c'è niente di meglio che deludere i potenziali utenti proprio dopo che stavano cominciando ad interessarsi.
+
 
 **5.5 Cambia i dati dopo la pubblicazione**
 
-Anche senza spostare i dati, puoi modificarli allo stesso URL senza controllo delle versioni o notifiche. Così, gli utenti che li scaricano e usano potrebbero ritrovarsi confusi a rieseguire i loro software. Un utente che deve continuamente riscaricare e riconvalidare i tuoi dati è un utente che probabilmente non tornerà più.
+Anche se non puoi spostare i dati, puoi modificarli allo stesso URL senza versionarli e senza darne alcuna notizia. Così, gli utenti che li scaricano e usano potrebbero ritrovarsi confusi a rieseguire i loro software. Un utente che deve continuamente riscaricare e riconvalidare i tuoi dati è un utente che probabilmente non tornerà più.
 
 **6. Frammenta i set di dati collegati**
 
 Hai un dataset che copre diversi anni? Perfetto. Dividilo in molti file individuali e non collegarli in modo ovvio. Trovare tutti i dataset e collegarli è un lavoro aggiuntivo per ogni utente che commette l'errore di cercare di usare i tuoi dati. Fortunatamente per te, i data scientist odiano il lavoro aggiuntivo.
 
-Questo ha il vantaggio aggiuntivo di nascondere meglio il valore dei tuoi dati. Un potenziale utente che trova solo uno dei tuoi dataset potrebbe pensare che non sia recente o sufficientemente esteso e lasciarti in pace. Considera questo dataset con dati calcistici dal 1960. Non ti fa forse immediatamente venir voglia di scoprire come i dati cambiano nel tempo? Immagina quanto peggiore potrebbe essere se tu pubblicassi solo un file per ogni anno. Con un po' di fortuna, chiunque si imbatterebbe solo nei dati del 1960, penserebbe che siano troppo vecchi e non aggiornati e disturberebbe qualcun altro.
+Questo ha il vantaggio aggiuntivo di nascondere meglio il valore dei tuoi dati. Un potenziale utente che trova solo uno dei tuoi dataset potrebbe pensare che non sia recente o sufficientemente esteso e lasciarti in pace. Considera questo dataset con dati calcistici dal 1960. Non ti fa forse immediatamente venir voglia di scoprire come i dati cambiano nel tempo? Immagina quanto peggiore potrebbe essere se tu pubblicassi solo un file per ogni anno. Con un po' di fortuna, le persone potrebbero imbattersi solo nei dati del 1960, pensare che siano troppo vecchi e non aggiornati e disturberebbero qualcun altro.
 
-Obiettivo a lungo termine: Diffondi i dati automaticamente sui portali di dati ma lascia descrizioni e contesto importante solo sul tuo sito web per rendere i dati più difficili da usare e apparentemente di qualità inferiore.
+Obiettivo aggiuntivo: Distribuisci automaticamente i dati ai portali di dati ma lascia la descrizione e il contesto solo sul tuo sito web per rendere i dati più difficili da utilizzare e farli apparire di qualità inferiore.
 
 **Conclusione**
 
-Questi sono i migliori consigli per assicurarti che nessuno si interessi ai tuoi dati aperti, garantiti per frustrare qualsiasi potenziale utente. Ne ho dimenticato qualcuno? Fammi sapere altri metodi che hai trovato per rendere noioso l'utilizzo dei dati aperti.
+Questi erano i migliori consigli per far sì che nessuno si interessi ai tuoi dati aperti. La frustrazione per qualsiasi potenziale utente è assicurata. Ne ho dimenticati alcuni? Fammi sapere di altri metodi che hai trovato per rendere l'uso dei dati aperti meno divertente.
