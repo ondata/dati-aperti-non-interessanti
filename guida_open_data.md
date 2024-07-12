@@ -1,12 +1,16 @@
-## Come Assicurarsi che Nessuno Si Interesserà ai Tuoi Dati Aperti
+## Come assicurarsi che nessuno si interessi ai tuoi dati aperti
 
 Articolo originariamente scritto da Philip Heltweg: [How to Make Sure No One Cares About Your Open Data](https://www.heltweg.org/posts/how-to-make-sure-no-one-cares-about-your-open-data/)
+
+La traduzione italiana è a cura di [Antonio Vivace](https://github.com/avivace) e [Marco]() per [onData](https://www.ondata.it/).
+
+---
 
 Condividere i dati apertamente è un'impresa nobile. Può stimolare la ricerca, l'innovazione e la trasparenza. È anche davvero difficile e tedioso da fare, inoltre si perde il controllo - chissà cosa potrebbe fare la gente. Purtroppo, pubblicare dati aperti è spesso un obbligo legale. Quindi la soluzione migliore è pubblicare tecnicamente i dati aperti, ma assicurarsi che nessuno si interessi a essi. Basandomi sulla mia esperienza parlando con professionisti dei dati aperti, lavorando con varie fonti di dati aperti e insegnando agli studenti l'ingegneria dei dati, ecco un elenco di strategie comuni che ti aiuteranno a evitare qualsiasi attenzione da parte degli utenti effettivamente interessati a lavorare con i tuoi dati.
 
 **1. Licenza oscura**
 
-Confondi gli utenti rendendo difficile capire se i tuoi dati siano realmente open data. Evita le licenze comuni con descrizioni chiare (come [quelle di OKFN](https://opendefinition.org/licenses/)) e nascondi la licenza effettiva (evita [identificatori SPDX](https://spdx.org/licenses/) nei metadati). Se possibile, non usare proprio alcuna licenza e fai riferimento solo a termini di utilizzo o documenti simili.
+Confondi gli utenti rendendo difficile capire se i tuoi dati siano realmente aperti. Evita le licenze comuni con descrizioni chiare (come [quelle di OKFN](https://opendefinition.org/licenses/)) e nascondi la licenza effettiva (evita [identificatori SPDX](https://spdx.org/licenses/) nei metadati). Se possibile, non usare proprio alcuna licenza e fai riferimento solo a termini di utilizzo o documenti simili.
 
 Se non puoi evitare una licenza standard, cerca di trovare una licenza nella tua lingua locale, che perlomeno scoraggerà gli utenti internazionali.
 
@@ -26,21 +30,27 @@ Terribile. Cerca di pubblicare solo i metadati minimi richiesti e scrivi descriz
 
 Piattaforme come Kaggle mostrano automaticamente agli utenti un'anteprima dei dati. Vedi questo set di dati sull'individuazione delle frodi con carte di credito (con utili visualizzazioni): [https://www.kaggle.com/datasets/kartik2112/fraud-detection](https://www.kaggle.com/datasets/kartik2112/fraud-detection). 
 
-Con l'anteprima incorporata dei dati e i riassunti delle distribuzioni dei valori in ciascuna colonna, è davvero facile giudicare se i dati sono appropriati da utilizzare. Poiché questo riduce l'attrito per l'utente, sarà più probabile che li utilizzi effettivamente.
+Con anteprime dei dati e riassunti delle distribuzioni dei valori in ciascuna colonna, è davvero facile giudicare se i dati sono appropriati da utilizzare. 
+
+Questo potrebbe semplificare l'esperienza per l'utente e sarà più probabile che li utilizzi effettivamente.
 
 Evita di generare anteprime o riassunti dei tuoi dati.
 
 **3. Rendili difficili da trovare**
 
-Scegli nomi brevi e non descrittivi e descrizioni minimaliste per ostacolare l'indicizzazione da parte dei motori di ricerca. Inoltre, evita di distribuirli ampiamente. Portali come govdata.de hanno ottime funzioni di ricerca e API. Un disastro! Crea un tuo portale dati personale per scoraggiare l'utilizzo.
+Scegli nomi brevi e non descrittivi e descrizioni minimaliste per ostacolare l'indicizzazione da parte dei motori di ricerca. Inoltre, evita di distribuirli ampiamente. 
+
+I portali di dati aperti come govdata.de spesso dispongono di funzioni di ricerca ben fatte o persino di API che possono essere utilizzate programmaticamente. Questo è ovviamente un disastro, quindi assicurati di creare un altro portale di dati che usi solo tu e pubblica i dati solo lì.
 
 **4. Formati scomodi e rari**
 
-CSV o JSON sono facili da usare, quindi evita questi per scoraggiare l'accesso libero. Pubblica in formati che richiedono software costosi (come XSL), ma anche questi possono essere superati. Opzioni ideali? Formati non leggibili dalle macchine, come i PDF. Puoi anche includere testo di riempimento come intestazioni e piè di pagina.
+Se pubblichi i tuoi dati in formati facilmente utilizzabili come CSV o JSON, devi accettare il rischio che gli utenti possano accedere ai tuoi dati liberamente. Puoi provare a pubblicarli in un formato che richiede software proprietario come XSL, ma anche quelli possono essere convertiti dalla maggior parte delle persone al giorno d'oggi. La cosa migliore sarebbe utilizzare un formato di file che non leggibile dalle macchine. 
+
+I PDF sono una scelta popolare, specialmente se includi del testo di riempimento come intestazioni o piè di pagina oltre ai dati stessi.
 
 **4.5 Esportazione "human-friendly"**
 
-Per i dati tabulari, mantieni una struttura pensata per la lettura umana. Includi celle unite, intestazioni elaborate e note a piè di pagina. Se esportato in CSV, aggiungi testo in chiaro (come dichiarazioni di copyright) per complicare l'importazione automatica. Più gli utenti devono pulire i dati, più è probabile che rinuncino.
+Quando esporti dati tabulari, considera di mantenere la struttura in un modo progettato originariamente per i lettori umani. Includi celle unite, intestazioni elaborate e note a piè di pagina. Se esporti in CSV, aggiungi alcuni metadati in puro testo, come le clausole di copyright, per rendere le importazioni automatiche più ostiche. Se i tuoi utenti devono affrontare un'ampia pulizia e un lavoro manuale prima di poter utilizzare i tuoi dati, potrebbero rinunciare.
 
 **5. Errori 404**
 
