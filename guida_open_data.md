@@ -1,5 +1,7 @@
 ## Come Assicurarsi che Nessuno Si Interesserà ai Tuoi Dati Aperti
 
+Articolo originariamente scritto da Philip Heltweg: [How to Make Sure No One Cares About Your Open Data](https://www.heltweg.org/posts/how-to-make-sure-no-one-cares-about-your-open-data/)
+
 Nota: Questo testo ironico fornisce consigli per pubblicare "open data" (dati aperti) in modo tale che nessuno li utilizzi.
 
 Condividere dati in modo aperto è un nobile intento. Può stimolare la ricerca, l'innovazione e la trasparenza. È anche davvero difficile e fastidioso farlo, inoltre perdi il controllo - chi sa cosa la gente farà con quei dati. Purtroppo, spesso la pubblicazione dei dati aperti è legalmente richiesta. Quindi, la tua migliore opzione è pubblicare tecnicamente i dati aperti, ma assicurarti che nessuno ne sia interessato. Basato sulla mia esperienza nell'intervistare professionisti dei dati aperti, lavorare con varie fonti di dati aperti e insegnare agli studenti l'ingegneria dei dati, ecco un elenco di strategie comuni che ti aiuteranno a evitare qualsiasi attenzione da parte degli utenti effettivamente interessati a lavorare con i tuoi dati.
