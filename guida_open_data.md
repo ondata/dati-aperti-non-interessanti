@@ -2,8 +2,6 @@
 
 Articolo originariamente scritto da Philip Heltweg: [How to Make Sure No One Cares About Your Open Data](https://www.heltweg.org/posts/how-to-make-sure-no-one-cares-about-your-open-data/)
 
-Nota: Questo testo ironico fornisce consigli per pubblicare "open data" (dati aperti) in modo che nessuno li utilizzi.
-
 Condividere i dati apertamente è un'impresa nobile. Può stimolare la ricerca, l'innovazione e la trasparenza. È anche davvero difficile e tedioso da fare, inoltre si perde il controllo - chissà cosa potrebbe fare la gente. Purtroppo, pubblicare dati aperti è spesso un obbligo legale. Quindi la soluzione migliore è pubblicare tecnicamente i dati aperti, ma assicurarsi che nessuno si interessi a essi. Basandomi sulla mia esperienza parlando con professionisti dei dati aperti, lavorando con varie fonti di dati aperti e insegnando agli studenti l'ingegneria dei dati, ecco un elenco di strategie comuni che ti aiuteranno a evitare qualsiasi attenzione da parte degli utenti effettivamente interessati a lavorare con i tuoi dati.
 
 **1. Licenza oscura**
@@ -16,13 +14,21 @@ Punti bonus se pubblichi su Kaggle con la licenza "Altro (specificato nella desc
 
 **2. Pubblica solo metadati**
 
-Guarda questa mappa interattiva realizzata dall'agenzia nazionale francese per i dati sui trasporti: [https://transport.data.gouv.fr/?locale=en](https://transport.data.gouv.fr/?locale=en). Sembra invitante, vero? 
-**Sbagliato!** Pubblica solo i metadati minimi richiesti e scrivi descrizioni fattuali e noiose. Evita esempi di dati o del loro utilizzo. Mimetizzati tra i tanti set di dati generici.
+Guarda questa mappa interattiva realizzata dall'agenzia nazionale francese per i dati sui trasporti: [https://transport.data.gouv.fr/?locale=en](https://transport.data.gouv.fr/?locale=en).
+
+Oppure il progetto [Datenwaben](https://datenwaben.de/?city=vienna&page=cards) di [Thomas Tursics](https://toot.berlin/@tursics@toot.berlin).
+Doesn’t that give you ideas for projects using the underlying data and make it sound interesting?
+
+Terribile. Cerca di pubblicare solo i metadati minimi richiesti e scrivi descrizioni ovvie e noiose. Se puoi, evita di presentare esempi dei dati o di spiegare come usarli a tutti i costi. Ci sono così tanti set di dati generici là fuori che puoi nasconderti nella folla.
+
 
 **2.5 Meno informazioni, meglio è**
 
 Piattaforme come Kaggle mostrano automaticamente agli utenti un'anteprima dei dati. Vedi questo set di dati sull'individuazione delle frodi con carte di credito (con utili visualizzazioni): [https://www.kaggle.com/datasets/kartik2112/fraud-detection](https://www.kaggle.com/datasets/kartik2112/fraud-detection). 
-Questo è il tuo nemico! Evita anteprime o riassunti dei dati.
+
+Con l'anteprima incorporata dei dati e i riassunti delle distribuzioni dei valori in ciascuna colonna, è davvero facile giudicare se i dati sono appropriati da utilizzare. Poiché questo riduce l'attrito per l'utente, sarà più probabile che li utilizzi effettivamente.
+
+Evita di generare anteprime o riassunti dei tuoi dati.
 
 **3. Rendili difficili da trovare**
 
