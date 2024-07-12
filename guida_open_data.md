@@ -8,8 +8,11 @@ Condividere i dati apertamente è un'impresa nobile. Può stimolare la ricerca, 
 
 **1. Licenza oscura**
 
-Confondi gli utenti rendendo difficile capire se i tuoi dati siano realmente open data. Evita le licenze comuni con descrizioni chiare (come quelle di OKFN) e nascondi la licenza effettiva (evita identificatori SPDX nei metadati). Se possibile, non usare alcuna licenza e fai riferimento solo a termini di utilizzo o documenti simili. 
-**Bonus:** pubblica su Kaggle con la licenza "Altra (specificata nella descrizione)" senza specificarla poi nella descrizione.
+Confondi gli utenti rendendo difficile capire se i tuoi dati siano realmente open data. Evita le licenze comuni con descrizioni chiare (come [quelle di OKFN](https://opendefinition.org/licenses/)) e nascondi la licenza effettiva (evita [identificatori SPDX](https://spdx.org/licenses/) nei metadati). Se possibile, non usare proprio alcuna licenza e fai riferimento solo a termini di utilizzo o documenti simili.
+
+Se non puoi evitare una licenza standard, cerca di trovare una licenza nella tua lingua locale, che perlomeno scoraggerà gli utenti internazionali.
+
+Punti bonus se pubblichi su Kaggle con la licenza "Altro (specificato nella descrizione)" e non scrivi nulla sulla licenza nella descrizione.
 
 **2. Pubblica solo metadati**
 
