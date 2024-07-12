@@ -50,4 +50,4 @@ Questo ha il vantaggio aggiuntivo di nascondere meglio il valore dei tuoi dati. 
 Obiettivo a lungo termine: Diffondi i dati automaticamente sui portali di dati ma lascia descrizioni e contesto importante solo sul tuo sito web per rendere i dati più difficili da usare e apparentemente di qualità inferiore.
 
 **Conclusione**
-Questi sono i migliori consigli per assicurarti che nessuno si interessi ai tuoi dati aperti, garantiti per frustrare qualsiasi potenziale utente. Ne ho mancato qualcuno? Fammi sapere altri metodi che hai trovato per togliere il divertimento dall'usare dati aperti.
+Questi sono i migliori consigli per assicurarti che nessuno si interessi ai tuoi dati aperti, garantiti per frustrare qualsiasi potenziale utente. Ne ho dimenticato qualcuno? Fammi sapere altri metodi che hai trovato per rendere noioso l'utilizzo dei dati aperti.
