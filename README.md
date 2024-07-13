@@ -6,7 +6,7 @@ La traduzione italiana è a cura di [Antonio Vivace](https://github.com/avivace)
 
 ---
 
-Condividere i dati apertamente è un'impresa nobile. Può stimolare la ricerca, l'innovazione e la trasparenza. È anche davvero difficile e tedioso da fare, inoltre si perde il controllo - chissà cosa potrebbe fare la gente. Purtroppo, pubblicare dati aperti è spesso un obbligo legale. Quindi la soluzione migliore è pubblicare tecnicamente i dati aperti, ma assicurarsi che nessuno si interessi a essi. Basandomi sulla mia esperienza parlando con professionisti dei dati aperti, lavorando con varie fonti di dati aperti e insegnando agli studenti l'ingegneria dei dati, ecco un elenco di strategie comuni che ti aiuteranno a evitare qualsiasi attenzione da parte degli utenti effettivamente interessati a lavorare con i tuoi dati.
+Condividere i dati apertamente è un'impresa nobile. Può stimolare la ricerca, l'innovazione e la trasparenza. È anche davvero difficile e tedioso da fare, oltre a farti perdere il controllo. Chissà cosa potrebbe fare la gente. Purtroppo, pubblicare dati aperti è spesso un obbligo legale. La soluzione migliore è quindi pubblicarli, ma assicurandosi che nessuno se ne interessi. Basandomi sulla mia esperienza parlando con professionisti dei dati aperti, lavorando con varie fonti di dati aperti e insegnando agli studenti l'ingegneria dei dati, ecco un elenco di strategie comuni che ti aiuteranno a evitare qualsiasi attenzione da parte degli utenti effettivamente interessati a lavorare con i tuoi dati.
 
 **1. Licenza oscura**
 
@@ -48,7 +48,7 @@ I portali di dati aperti come govdata.de spesso dispongono di funzioni di ricerc
 
 **4. Formati scomodi e rari**
 
-Se pubblichi i tuoi dati in formati facilmente utilizzabili come CSV o JSON, devi accettare il rischio che gli utenti possano accedere ai tuoi dati liberamente. Puoi provare a pubblicarli in un formato che richiede software proprietario come XSL, ma anche quelli possono essere convertiti dalla maggior parte delle persone al giorno d'oggi. La cosa migliore sarebbe utilizzare un formato di file che non leggibile dalle macchine. 
+Se pubblichi i tuoi dati in formati facilmente utilizzabili come CSV o JSON, devi accettare il rischio che gli utenti possano accedere ai tuoi dati liberamente. Puoi provare a pubblicarli in un formato che richiede software proprietario come XSL, ma anche quelli possono essere convertiti dalla maggior parte delle persone al giorno d'oggi. La cosa migliore sarebbe utilizzare un formato di file non leggibile dalle macchine. 
 
 I PDF sono una scelta popolare, specialmente se includi del testo di riempimento come intestazioni o piè di pagina oltre ai dati stessi.
 
