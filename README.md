@@ -71,12 +71,12 @@ Anche se non puoi spostare i dati, puoi modificarli allo stesso URL senza versio
 
 **6. Frammenta i set di dati collegati**
 
-Hai un dataset che copre diversi anni? Perfetto. Dividilo in molti file individuali e non collegarli in modo ovvio. Trovare tutti i dataset e collegarli è un lavoro aggiuntivo per ogni utente che commette l'errore di cercare di usare i tuoi dati. Fortunatamente per te, i data scientist odiano il lavoro aggiuntivo.
+Hai un dataset che copre diversi anni? Perfetto. Dividilo in molti file individuali e non collegarli in modo chiaro. Trovare tutti i dataset e collegarli è un lavoro aggiuntivo per ogni utente che commette l'errore di cercare di usare i tuoi dati. Fortunatamente per te, i data scientist odiano lavorare piu del necessario.
 
 Questo ha il vantaggio aggiuntivo di nascondere meglio il valore dei tuoi dati. Un potenziale utente che trova solo uno dei tuoi dataset potrebbe pensare che non sia recente o sufficientemente esteso e lasciarti in pace. Considera questo dataset con dati calcistici dal 1960. Non ti fa forse immediatamente venir voglia di scoprire come i dati cambiano nel tempo? Immagina quanto peggiore potrebbe essere se tu pubblicassi solo un file per ogni anno. Con un po' di fortuna, le persone potrebbero imbattersi solo nei dati del 1960, pensare che siano troppo vecchi e non aggiornati e disturberebbero qualcun altro.
 
-Obiettivo aggiuntivo: Distribuisci automaticamente i dati ai portali di dati ma lascia la descrizione e il contesto solo sul tuo sito web per rendere i dati più difficili da utilizzare e farli apparire di qualità inferiore.
+Obiettivo aggiuntivo: distribuisci automaticamente i dati ai portali di dati ma lascia la descrizione e il contesto solo sul tuo sito web per rendere i dati più difficili da utilizzare e farli apparire di qualità inferiore.
 
 **Conclusione**
 
-Questi erano i migliori consigli per far sì che nessuno si interessi ai tuoi dati aperti. La frustrazione per qualsiasi potenziale utente è assicurata. Ne ho dimenticati alcuni? Fammi sapere di altri metodi che hai trovato per rendere l'uso dei dati aperti meno divertente.
+Questi erano i migliori consigli per far sì che nessuno si interessi ai tuoi dati aperti. La frustrazione per qualsiasi potenziale utente è assicurata. Ne manca qualcuno? Facci sapere di altri metodi che hai trovato per rendere l'uso dei dati aperti meno divertente.
