@@ -1,3 +1,5 @@
+![onData newsletter](https://img.shields.io/badge/onData-newsletter-blue?style=for-the-badge&logo=substack&logoColor=white&labelColor=FF4B4B&link=https://ondata.substack.com/)
+
 # Come assicurarsi che nessuno si interessi ai tuoi dati aperti <!-- omit in toc -->
 
 Articolo originariamente scritto da Philip Heltweg: [How to Make Sure No One Cares About Your Open Data](https://www.heltweg.org/posts/how-to-make-sure-no-one-cares-about-your-open-data/)
