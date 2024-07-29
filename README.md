@@ -35,7 +35,7 @@ Guarda questa mappa interattiva realizzata dall'agenzia nazionale francese per i
 ![Explore page of the French national access point to transport data](https://www.heltweg.org/posts/how-to-make-sure-no-one-cares-about-your-open-data/explore-map.png#center)
 
 Oppure il progetto [Datenwaben](https://datenwaben.de/?city=vienna&page=cards) di [Thomas Tursics](https://toot.berlin/@tursics@toot.berlin).
-Questo non ti dà idee per progetti che utilizzano questi e non ti sembra interessante?
+Non ti stimola idee per progetti basati su questi dati? Non te li fa sembrare interessanti?
 
 Terribile. Cerca di pubblicare solo i metadati minimi richiesti e di scrivere descrizioni ovvie e noiose. Se puoi, evita di presentare esempi dei dati o di spiegare come usarli a tutti i costi. Ci sono così tanti set di dati generici là fuori che puoi nasconderti nella folla.
 
