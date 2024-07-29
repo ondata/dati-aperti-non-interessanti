@@ -9,6 +9,7 @@ remote_theme: "pages-themes/primer"
 title: Come assicurarsi che nessuno si interessi ai tuoi dati aperti
 description: Purtroppo, pubblicare dati aperti è spesso un obbligo legale. La soluzione migliore è quindi pubblicarli, ma assicurandosi che nessuno se ne interessi.
 lang: it-IT
-url: "https://ondata.github.io/dati-aperti-non-interessanti/"
+url: "https://ondata.github.io"
+baseurl: "/dati-aperti-non-interessanti"
 image: "images/dati_aperti_senza_interesse.png"
 twitter_username: "ondatait"
