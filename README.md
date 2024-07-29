@@ -2,7 +2,7 @@
 
 Articolo originariamente scritto da Philip Heltweg: [How to Make Sure No One Cares About Your Open Data](https://www.heltweg.org/posts/how-to-make-sure-no-one-cares-about-your-open-data/)
 
-La traduzione italiana è a cura di [Antonio Vivace](https://github.com/avivace) e [Marco](https://github.com/mcortella) per [onData](https://www.ondata.it/). Puoi contribuire a migliorarla [qui](https://github.com/ondata/dati_aperti_senza_interesse).
+La traduzione italiana è a cura di [Antonio Vivace](https://github.com/avivace) e [Marco Cortella](https://github.com/mcortella) per [onData](https://www.ondata.it/). Puoi contribuire a migliorarla [qui](https://github.com/ondata/dati_aperti_senza_interesse).
 
 ---
 
@@ -23,7 +23,7 @@ Guarda questa mappa interattiva realizzata dall'agenzia nazionale francese per i
 ![Explore page of the French national access point to transport data](https://www.heltweg.org/posts/how-to-make-sure-no-one-cares-about-your-open-data/explore-map.png#center)
 
 Oppure il progetto [Datenwaben](https://datenwaben.de/?city=vienna&page=cards) di [Thomas Tursics](https://toot.berlin/@tursics@toot.berlin).
-Doesn’t that give you ideas for projects using the underlying data and make it sound interesting?
+Non ti dà idee per progetti usando i dati sottostanti e li fa sembrare interessanti?
 
 Terribile. Cerca di pubblicare solo i metadati minimi richiesti e scrivi descrizioni ovvie e noiose. Se puoi, evita di presentare esempi dei dati o di spiegare come usarli a tutti i costi. Ci sono così tanti set di dati generici là fuori che puoi nasconderti nella folla.
 
@@ -44,7 +44,7 @@ Evita di generare anteprime o riassunti dei tuoi dati.
 
 Scegli nomi brevi e non descrittivi e descrizioni minimaliste per ostacolare l'indicizzazione da parte dei motori di ricerca. Inoltre, evita di distribuirli ampiamente. 
 
-I portali di dati aperti come govdata.de spesso dispongono di funzioni di ricerca ben fatte o persino di API che possono essere utilizzate programmaticamente. Questo è ovviamente un disastro, quindi assicurati di creare un altro portale di dati che usi solo tu e pubblica i dati solo lì.
+I portali di dati aperti come [govdata.de](https://www.govdata.de/) spesso dispongono di funzioni di ricerca ben fatte o persino di API che possono essere utilizzate programmaticamente. Questo è ovviamente un disastro, quindi assicurati di creare un altro portale di dati che usi solo tu e pubblica i dati solo lì.
 
 **4. Formati scomodi e rari**
 
