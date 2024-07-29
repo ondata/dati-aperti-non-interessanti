@@ -1,4 +1,6 @@
-![onData newsletter](https://img.shields.io/badge/onData-newsletter-blue?style=for-the-badge&logo=substack&logoColor=white&labelColor=FF4B4B&link=https://ondata.substack.com/)
+<a href="https://ondata.substack.com/" target="_blank">
+  <img src="https://img.shields.io/badge/onData-newsletter-blue?style=for-the-badge&logo=substack&logoColor=white&labelColor=FF4B4B" alt="onData newsletter">
+</a>
 
 # Come assicurarsi che nessuno si interessi ai tuoi dati aperti <!-- omit in toc -->
 
