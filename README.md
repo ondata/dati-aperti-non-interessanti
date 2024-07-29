@@ -12,17 +12,16 @@ La traduzione italiana è a cura di [Antonio Vivace](https://github.com/avivace)
 - [3. Rendili difficili da trovare](#3-rendili-difficili-da-trovare)
 - [4. Usa formati scomodi e rari](#4-usa-formati-scomodi-e-rari)
   - [4.5 Esporta in modalità "human-friendly"](#45-esporta-in-modalità-human-friendly)
-- [5. Assicurarsi della presenza di errori 404](#5-assicurarsi-della-presenza-di-errori-404)
+- [5. Assicurati della presenza degli errori 404](#5-assicurati-della-presenza-degli-errori-404)
   - [5.5 Cambia i dati dopo la pubblicazione](#55-cambia-i-dati-dopo-la-pubblicazione)
 - [6. Frammenta i set di dati collegati](#6-frammenta-i-set-di-dati-collegati)
 - [Conclusione](#conclusione)
-
 
 Condividere dati aperti è un'impresa nobile. Può stimolare la ricerca, l'innovazione e la trasparenza. È anche molto difficile e fastidioso da fare, e in più si perde il controllo: chissà cosa combinerà la gente. Purtroppo, pubblicare dati aperti è spesso un obbligo legale. La soluzione migliore è quindi pubblicarli, ma assicurandosi che nessuno se ne interessi. Basandomi sulla mia esperienza parlando con professionisti dei dati aperti, lavorando con varie fonti di dati aperti e insegnando agli studenti l'ingegneria dei dati, ecco un elenco di strategie comuni che ti aiuteranno a evitare qualsiasi attenzione da parte degli utenti effettivamente interessati a lavorare con i tuoi dati.
 
 ## 1. Utilizza una licenza oscura
 
-Il modo più semplice per spaventare i potenziali utenti è quello di rendere difficile sapere se i vostri dati sono aperti. Evita le licenze comuni con descrizioni chiare (come [quelle di OKFN](https://opendefinition.org/licenses/)) e nascondi la licenza effettiva (evita [identificatori SPDX](https://spdx.org/licenses/) nei metadati). Se possibile, non usare proprio alcuna licenza e fai riferimento solo a termini di utilizzo o documenti simili.
+Il modo più semplice per spaventare i potenziali utenti è quello di rendere difficile comprendere se i tuoi dati sono aperti. Evita le licenze comuni con descrizioni chiare (come [quelle di OKFN](https://opendefinition.org/licenses/)) e nascondi la licenza effettiva (evita [identificatori SPDX](https://spdx.org/licenses/) nei metadati). Se possibile, non usare proprio alcuna licenza e fai riferimento solo a termini di utilizzo o documenti simili.
 
 Se non puoi evitare una licenza standard, cerca di trovare una licenza nella tua lingua locale, che perlomeno scoraggerà gli utenti internazionali.
 
@@ -35,10 +34,10 @@ Guarda questa mappa interattiva realizzata dall'agenzia nazionale francese per i
 ![Explore page of the French national access point to transport data](https://www.heltweg.org/posts/how-to-make-sure-no-one-cares-about-your-open-data/explore-map.png#center)
 
 Oppure il progetto [Datenwaben](https://datenwaben.de/?city=vienna&page=cards) di [Thomas Tursics](https://toot.berlin/@tursics@toot.berlin).
-Non ti stimola idee per progetti basati su questi dati? Non te li fa sembrare interessanti?
+
+Non ti stimolano idee per progetti basati su questi dati? Non te li fanno sembrare interessanti?
 
 Terribile. Cerca di pubblicare solo i metadati minimi richiesti e di scrivere descrizioni ovvie e noiose. Se puoi, evita di presentare esempi dei dati o di spiegare come usarli a tutti i costi. Ci sono così tanti set di dati generici là fuori che puoi nasconderti nella folla.
-
 
 ### 2.5 Meno informazioni dai, meglio è
 
@@ -60,7 +59,7 @@ I portali di dati aperti come [govdata.de](https://www.govdata.de/) spesso dispo
 
 ## 4. Usa formati scomodi e rari
 
-Se pubblichi i tuoi dati in formati facilmente utilizzabili come CSV o JSON, devi accettare il rischio che gli utenti possano accedere ai tuoi dati liberamente. Puoi provare a pubblicarli in un formato che richiede software proprietario come XLS, ma anche quelli possono essere convertiti dalla maggior parte delle persone al giorno d'oggi. La cosa migliore sarebbe utilizzare un formato di file non leggibile dalle macchine.
+Se pubblichi i tuoi dati in formati facilmente utilizzabili come CSV o JSON, devi accettare il rischio che gli utenti possano accedere ai tuoi dati liberamente. Puoi provare a pubblicarli in un formato che richiede software proprietario come XLS, ma anche questo oggi può essere convertito dalla maggior parte delle persone. La cosa migliore sarebbe utilizzare un formato di file non leggibile dalle macchine.
 
 I PDF sono una scelta popolare, specialmente se includi del testo di "riempimento" come intestazioni o piè di pagina oltre ai dati stessi.
 
@@ -68,14 +67,13 @@ I PDF sono una scelta popolare, specialmente se includi del testo di "riempiment
 
 ### 4.5 Esporta in modalità "human-friendly"
 
-Quando esporti dati tabellari, è bene mantenere la struttura originariamente pensata per la lettura delle persone. Includi celle unite, intestazioni elaborate e note a piè di pagina. Se esporti in CSV, aggiungi alcuni metadati in puro testo, come le clausole di copyright, per rendere le importazioni automatiche più ostiche. Se i tuoi utenti devono fare un'ampia pulizia e un lavoro manuale prima di poter utilizzare i tuoi dati, potrebbero rinunciare.
+Quando esporti dati tabellari, è bene mantenere la struttura originariamente pensata per la lettura da parte delle persone. Includi celle unite, intestazioni elaborate e note a piè di pagina. Se esporti in CSV, aggiungi alcuni metadati in puro testo, come le clausole di *copyright*, per rendere le importazioni automatiche più ostiche. Se i tuoi utenti devono fare un'ampia pulizia e un lavoro manuale prima di poter utilizzare i tuoi dati, potrebbero rinunciare.
 
-## 5. Assicurarsi della presenza di errori 404
+## 5. Assicurati della presenza degli errori 404
 
 Se devi proprio condividere i tuoi dati su portali open data, sfrutta il fatto che spesso contengono solo metadati e un collegamento alla tua fonte originale. Riorganizza frequentemente il tuo portale senza impostare reindirizzamenti appropriati e mostra agli utenti entusiasti una pagina di errore 404 (o meglio ancora, una pagina che spiega la nuova struttura e che i dati sono altrove).
 
 Non c'è niente di meglio che deludere i potenziali utenti proprio dopo che stavano cominciando ad interessarsi.
-
 
 ### 5.5 Cambia i dati dopo la pubblicazione
 
